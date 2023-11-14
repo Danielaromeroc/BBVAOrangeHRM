@@ -12,7 +12,6 @@ public class ListsPages {
     }
 
     public void roleCountry(String typeCountry){
-
         WebElement listCountry = driver.findElement(By.xpath("//*[text()='Country']//..//..//i"));
         listCountry.click();
 

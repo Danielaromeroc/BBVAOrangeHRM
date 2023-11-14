@@ -31,7 +31,6 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
         this.buttonPages = new ButtonPages(driver);
         this.questions = new Questions(driver);
-
     }
 
     //Metodo
